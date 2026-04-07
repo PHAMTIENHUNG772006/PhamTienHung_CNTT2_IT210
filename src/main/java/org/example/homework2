@@ -1,0 +1,7 @@
+●	Tạo object trực tiếp trong class → phụ thuộc cứng (tight coupling)
+●	Không tuân theo Dependency Injection (DI)
+●	Vi phạm nguyên lý DIP (Dependency Inversion Principle)
+●
+// do trong đây khi một Bean thì mặc định nó là một Singerton mà lại xử dụng @Component thì định nghĩa nó là một thành phần dùng chung
+//nên tại đây mới tạo ra hiện tượng nạp máy một mà máy 2 cũng thay đổi khi biến đếm thay đổi thì mọi máy đều bắt lấy sự thay đổi
+// thêm cái @Scope("prototype")

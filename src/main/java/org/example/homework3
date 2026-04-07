@@ -1,0 +1,21 @@
+ Input
+●	username (String): tên người dùng
+●	foodName (String): tên món (ví dụ: “Mì xào bò”)
+●	quantity (int): số lượng món
+"Đặt món thành công cho user X"
+
+hoặc
+
+ - "Món ăn đã hết hàng"
+- "Số dư tài khoản không đủ"
+
+
+lưu đồ
+Nhận request đặt món
+Kiểm tra tồn kho:
+●	Nếu stock < quantity → fail
+Tính tổng tiền
+Kiểm tra số dư:
+●	Nếu balance < total → fail
+Trừ tiền
+Trả kết quả thành công

@@ -1,0 +1,9 @@
+Bài 4 :
+
+Tiêu chí	Constructor Injection	Field Injection	Setter Injection
+Rõ dependency	 Rõ ràng	 Ẩn	Trung bình
+Bắt buộc dependency	 Có	 Không	 Không
+Test unit	 Dễ mock	Khó	Tạm
+Immutability	 Có (final)	Không	 Không
+Null safety	 An toàn	Dễ null	 Dễ null
+Linh hoạt runtime	 Ít hơn	 Không	Có thể thay

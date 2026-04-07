@@ -1,0 +1,17 @@
+1. Input / Output
+Input
+●	username (String)
+●	balance (double)
+●	zone (String: VIP / NORMAL)
+Output
+●	balance >= 5000 → "Không có cảnh báo"
+●	balance < 5000:
+○	VIP → Popup cảnh báo
+○	NORMAL → Âm thanh cảnh báo
+●	Dữ liệu lỗi:
+○	"Username không hợp lệ"
+○	"Balance không hợp lệ"
+ 2. Kỹ thuật DI được chọn
+Constructor Injection
+Lý do:
+ Giúp đảm bảo dependency luôn được khởi tạo đầy đủ, tránh null và dễ test/mở rộng.

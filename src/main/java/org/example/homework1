@@ -1,0 +1,11 @@
+Bài tập 1
+
+Phân tích :
+Hard-code dependency → RechargeService phụ thuộc chặt vào InternalPaymentGateway
+Vi phạm nguyên lý IoC (Inversion of Control) và DIP (Dependency Inversion Principle)
+Không thể mở rộng:
+●	Muốn thêm MoMo, ZaloPay → phải sửa code class này
+Khó test:
+●	Không thể mock gateway khi unit test
+→ Nên chuyển sang Dependency Injection (DI) để tách phụ thuộc và dễ mở rộng.
+
